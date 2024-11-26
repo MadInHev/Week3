@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResWebApp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Container */
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background-color: #ffebcd;
+            width: 200px;
+            padding: 20px;
+            color: #333;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 10px;
+        }
+
+        .header, .nav, .content, .aside, .footer {
+            padding: 20px;
+            border-radius: 8px;
+            color: #333;
+        }
+
+        .header {
+            background-color: #e8e8ff;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #d1ffd8;
+        }
+
+        .content {
+            background-color: #f2f2f2;
+            flex: 1;
+        }
+
+        .aside {
+            background-color: #ffdede;
+        }
+
+        .footer {
+            background-color: #e8e8ff;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        
+        <div class="main-content">
+            <div class="header">Header</div>
+            <div class="nav">Nav</div>
+            <div class="content">Content</div>
+            <div class="aside">Aside</div>
+            <div class="footer">Footer</div>
+        </div>
+    </div>
+</body>
+</html>

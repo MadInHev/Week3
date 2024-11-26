@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    margin: 2%;
+    background-color: rgb(255, 143, 143);
+    width: 80vw;
+    height: 30vh;
+}
+
+nav{
+    margin: 2%;
+    background-color: rgb(153, 141, 225);
+    width: 80vw;
+    height: 15vh;
+}
+
+.container-1 {
+    margin: 2%;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+}
+
+section{
+    background-color: aquamarine;
+    width: 50vh;
+    height: 45vh;
+}
+
+aside{
+    background-color: rgb(212, 255, 127);
+    width: 50vh;
+    height: 45vh;
+}
+
+footer{
+    margin: 2%;
+    background-color: rgb(141, 211, 225);
+    width: 80vw;
+    height: 15vh;
+}
